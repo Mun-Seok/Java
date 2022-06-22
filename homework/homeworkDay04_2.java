@@ -10,7 +10,7 @@ public class Homework_day04_2 {
 //		숫자를 입력해주십시오
 //		어떤형으로 변환시키겠습니까? 1: float 2:int 3:double
 //		입력값은 어떤형으로 변환 완료하였습니다.
-//		1.변수정의
+//		1. 변수정의
 		int number;
 		int form;
 		float a;
