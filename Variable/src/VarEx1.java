@@ -1,5 +1,6 @@
 public class VarEx1 {
     public static void main(String[] args) {
+
         int year = 0; // 변수 year 선언하고 0으로 초기화
         int age = 14; // 변수 age 선언하고 14로 초기화
 
@@ -11,5 +12,6 @@ public class VarEx1 {
 
         System.out.println(year); // 변수 year을 출력    2014
         System.out.println(age); // 변수 age를 출력      15
+
     }
 }
