@@ -10,5 +10,8 @@ public class OperatorEx12 {
         c2++;
         c2++;
 
+        System.out.println("i = " + i); // i = 98
+        System.out.println("c2 = " + c2); // c2 = c
+        System.out.println("c3 = " + c3); // c3 = b
     }
 }
