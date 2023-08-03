@@ -1,8 +1,8 @@
 public class ArraryEx11 {
     public static void main(String[] args) {
         // 배열에 어떤 값이 몇 개 저장되었는지 계산하는 예제
-        int[] numArr = new int[10];
-        int[] counter = new int[10];
+        int[] numArr = new int[10]; // 임의의 숫자를 저장하는 배열
+        int[] counter = new int[10]; // 배열에 숫자가 몇 개 들었는지 저장하는 배열
 
         for (int i = 0; i < numArr.length; i++) {
             numArr[i] = (int) (Math.random() * 10); // 0~9 사이의 임의의 수를 배열에 저장
