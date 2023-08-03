@@ -9,7 +9,7 @@ public class ArrayEx5 {
         for (int i = 0; i < score.length; i++) {
             sum += score[i];
         }
-        average = sum / (float) score.length; //계산 결과를 float로 얻기 위해서 형변환
+        average = sum / (float) score.length; // 계산 결과를 float로 얻기 위해서 형변환
 
         System.out.println("총점 : " + sum);
         System.out.println("평균 : " + average);
