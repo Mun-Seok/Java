@@ -1,6 +1,6 @@
 public class ArrayEx14 {
     public static void main(String[] args) {
-        // String 클래스를 char 배열로 변환하는 예제
+        // String 클래스의 charAt()을 사용해 출력하는 예제
         String src = "ABCDE";
 
         for (int i = 0; i < src.length(); i++) {
