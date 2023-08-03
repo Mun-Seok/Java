@@ -21,5 +21,4 @@ public class ArrayEx7 {
             System.out.print(numArr[i]);
         }
     }
-
 }
