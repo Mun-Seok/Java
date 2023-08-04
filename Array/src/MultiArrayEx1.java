@@ -28,11 +28,11 @@ public class MultiArrayEx1 {
             System.out.printf("좌표를 입력하세요. (종료는 00)>");
             String input = scanner.nextLine(); // 입력받은 내용을 input에 저장
 
-            if (input.length() == 2) {
-                x = input.charAt(0) - '0';
-                y = input.charAt(1) - '0';
+            if (input.length() == 2) { // 두글자를 입력한 경우
+                x = input.charAt(0) - '0'; // 문자를 숫자로 변환 , 첫번째 문자
+                y = input.charAt(1) - '0'; // 두번째 문자
 
-                if (x == 0 && y == 0) {
+                if (x == 0 && y == 0) { // 종료인 00을 입력했을 때
                     break;
                 }
             }
@@ -42,10 +42,12 @@ public class MultiArrayEx1 {
                 continue;
             }
 
-            board[x][y] = shipBoard[x - 1][y - 1] == 1 ? 'O' : 'X';
+            // shipBoard[x-1][y-1]의 값이 1이면, 'O'을 board[x][y]에 저장한다.
+            board[x][y] = shipBoard[x - 1][y - 1] == 1 ? '0' : 'X';
 
+            // 배열 board의 내용을 화면에 출력한다.
             for (int i = 0; i < SIZE; i++) {
-                System.out.println(board[i]);
+                System.out.println(board[i]); // board[i]는 1차원 배열
             }
             System.out.println();
         }
