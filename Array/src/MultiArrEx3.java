@@ -1,5 +1,6 @@
 public class MultiArrEx3 {
     public static void main(String[] args) {
+        // 2개의 행렬을 곱한 결과를 출력하는 예제
         int[][] m1 = {
                 {1, 2, 3},
                 {4, 5, 6}
@@ -11,9 +12,9 @@ public class MultiArrEx3 {
                 {5, 6}
         };
 
-        final int ROW = m1.length;
-        final int COL = m2[0].length;
-        final int M2_ROW = m2.length;
+        final int ROW = m1.length; // m1의 행 길이
+        final int COL = m2[0].length; // m2의 열 길이
+        final int M2_ROW = m2.length; // m2의 행 길이
 
         int[][] m3 = new int[ROW][COL];
 
