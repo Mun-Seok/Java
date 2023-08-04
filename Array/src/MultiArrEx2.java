@@ -3,16 +3,16 @@ import java.util.*;
 public class MultiArrEx2 {
     public static void main(String[] args) {
         // 빙고 게임
-        final int SIZE = 5;
+        final int SIZE = 5; // 빙고판 사이즈
         int x = 0, y = 0, num = 0;
 
-        int[][] bingo = new int[SIZE][SIZE];
+        int[][] bingo = new int[SIZE][SIZE]; // 5×5 크기의 빙고판 생성
         Scanner scanner = new Scanner(System.in);
 
         // 배열의 모든 요소를 1부터 SIZE * SIZE까지의 숫자로 초기화
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
-                bingo[i][j] = i * SIZE + j + 1;
+                bingo[i][j] = i * SIZE + j + 1; // 1~25 (0 * 5 + 0 + 1 = 1 ~ 4 * 5 + 4 + 1 = 25)
             }
         }
 
