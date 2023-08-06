@@ -1,4 +1,5 @@
 // 객체 배열 생성 후 객체에 값을 저장 후 출력하는 예제
+// TV 클래스는 InstanceEx1에서 생성함
 public class InstanceEx4 {
     public static void main(String[] args) {
         TV[] tvArr = new TV[3];
