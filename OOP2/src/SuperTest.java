@@ -1,3 +1,4 @@
+// this와 super을 사용해서 출력해보는 예제
 public class SuperTest {
     public static void main(String[] args) {
         Child c = new Child();
