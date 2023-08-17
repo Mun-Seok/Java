@@ -15,7 +15,6 @@ class A3{
 interface I3 {
     public abstract void methodB();
 }
-
 class B3 implements I3 {
     public void methodB(){
         System.out.println("methodB in B class");
