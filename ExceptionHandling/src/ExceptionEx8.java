@@ -9,7 +9,7 @@ public class ExceptionEx8 {
             System.out.println(4);
         } catch (ArithmeticException arithmeticException) {
             arithmeticException.printStackTrace();
-            System.out.println("예외 메시지 : " + arithmeticException);
+            System.out.println("예외 메시지 : " + arithmeticException.getMessage());
         }
         System.out.println(6);
     }
