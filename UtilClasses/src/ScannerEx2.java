@@ -1,3 +1,4 @@
+// data2.txt파일로부터 데이터를 읽어서 합과 평균을 계산하는 예제
 import java.util.Scanner;
 import java.io.File;
 
