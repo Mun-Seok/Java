@@ -1,3 +1,4 @@
+// data3.txt의 데이터를 읽어서 계산하는 예제 (구분자로 라인별로 읽은 다음 다시 ','를 구분자로 데이터를 읽음)
 import java.util.Scanner;
 import java.io.File;
 public class ScannerEx3 {
