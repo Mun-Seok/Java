@@ -20,6 +20,6 @@ public class CalendarEx2 {
         System.out.println("일(day)로 계산하면 " + difference / (24 * 60 * 60) + "일입니다."); // 1일 = 24 * 60 * 60
     }
     public static String toString(Calendar date){
-        return date.get(Calendar.YEAR) + "년 " + (date.get(Calendar.MONTH) + 1 + "월 " +date.get(Calendar.DATE) + "일 ");
+        return date.get(Calendar.YEAR) + "년 " + (date.get(Calendar.MONTH) + 1 + "월 " + date.get(Calendar.DATE) + "일 ");
     }
 }
