@@ -1,5 +1,5 @@
+// 패턴을 이용해서 숫자를 다르게 변환하는 예제
 import java.text.*;
-d .
 public class DecimalFormatEx2 {
     public static void main(String[] args) {
         DecimalFormat df = new DecimalFormat("#,###.##");
