@@ -7,7 +7,7 @@ public class DateFormatterEx1 {
 
         String[] patternArr = {
             "yyyy-MM-dd HH:mm:ss",
-            "``yy년 MMM dd일 E요일",
+            "''yy년 MMM dd일 E요일",
             "yyyy-MM-dd HH:mm:ss.SSS Z VV",
             "yyyy-MM-dd hh:mm:ss a",
             "오늘은 올 해의 D번째 날입니다.",
