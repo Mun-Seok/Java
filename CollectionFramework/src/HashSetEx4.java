@@ -43,9 +43,14 @@ public class HashSetEx4 {
             setHab.add(it.next());
         }
 
+        it = setB.iterator();
+        while (it.hasNext()) {
+            setHab.add(it.next());
+        }
+
         System.out.println("A ∩ B = " + setKyo);
         System.out.println("A ∪ B = " + setHab);
-        System.out.println(" A -B = " + setCha);
+        System.out.println("A - B = " + setCha);
 
     }
 }
