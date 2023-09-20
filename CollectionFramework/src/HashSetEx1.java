@@ -1,4 +1,4 @@
-// HasㅗSet에 add 메서드로 객체를 추가하고 출력하는 예제
+// HashSet에 add 메서드로 객체를 추가하고 출력하는 예제
 import java.util.*;
 public class HashSetEx1 {
     public static void main(String[] args) {
