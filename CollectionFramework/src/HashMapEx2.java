@@ -1,3 +1,4 @@
+// HashMap의 기본적인 메서드를 이용해 데이터 저장하고 읽어오는 예제
 import java.util.*;
 public class HashMapEx2 {
     public static void main(String[] args) {
