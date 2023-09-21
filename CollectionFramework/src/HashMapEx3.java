@@ -1,4 +1,4 @@
-// HashMap
+// HashMap 하나의 키에 복수의 데이터 저장하는 예제
 import java.util.*;
 public class HashMapEx3 {
     static HashMap phoneBook = new HashMap();
