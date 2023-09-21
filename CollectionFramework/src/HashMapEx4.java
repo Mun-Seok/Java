@@ -1,3 +1,4 @@
+// HashMap에 문자열을 키로 저장하고 값을 1로 저장 후 빈도수를 구하는 예제
 import java.util.*;
 public class HashMapEx4 {
     public static void main(String[] args) {
@@ -8,12 +9,12 @@ public class HashMapEx4 {
         for (int i = 0; i < data.length; i++) {
             if (map.containsKey(data[i])) {
                 Integer value = (Integer) map.get(data[i]);
-                map.put(data[i], new Integer(value.intValue() + 1));)
+                map.put(data[i], new Integer(value.intValue() + 1));
             } else {
                 map.put(data[i], new Integer(1));
             }
         }
-        Iterator it = entrySet().iterator();
+        Iterator it = map.entrySet().iterator();
 
         while (it.hasNext()) {
             Map.Entry entry = (Map.Entry) it.next();
