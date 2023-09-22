@@ -1,7 +1,7 @@
 // 컬렉션의 메서드들을 이용해 객체들을 출력해보는 예제
 import java.util.*;
 import static java.util.Collections.*;
-public class CollectionFrameworkEx38 {
+public class CollectionEx {
     public static void main(String[] args) {
         List list = new ArrayList();
         System.out.println(list);
