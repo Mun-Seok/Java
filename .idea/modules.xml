@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/CollectionFramework/CollectionFramework.iml" filepath="$PROJECT_DIR$/CollectionFramework/CollectionFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/ControlStatement/ControlStatement.iml" filepath="$PROJECT_DIR$/ControlStatement/ControlStatement.iml" />
       <module fileurl="file://$PROJECT_DIR$/DateTime/DateTime.iml" filepath="$PROJECT_DIR$/DateTime/DateTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enums/Enums.iml" filepath="$PROJECT_DIR$/Enums/Enums.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Formatting/Formatting.iml" filepath="$PROJECT_DIR$/Formatting/Formatting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
