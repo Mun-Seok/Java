@@ -1,4 +1,4 @@
-// 하나의 쓰레드로 입력을 받는 작업과 화면에 숫자를 출력하는 작업을 하는 예제
+// 하나의 쓰레드로 입력을 받는 작업과 화면에 숫자를 출력하는 작업을 하는 예개
 import javax.swing.JOptionPane;
 public class ThreadEx6 {
     public static void main(String[] args) throws Exception {
