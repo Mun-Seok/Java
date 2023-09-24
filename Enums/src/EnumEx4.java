@@ -1,6 +1,6 @@
 // 열거형이 내부적으로 어떻게 구현되었는지 보여주는 예제
-abstract class MyEnum<T extends MyEnum<T>> implements Comparable<T> {
-    static int id = 0;
+abstract class MyEnum<T extends MyEnum<T>> implements Comparable<T> { // 타입 T가 MyEnum<T>의 자손이어야 한다.
+    static int id = 0; // 객체에 붙일 일련번호 (0부터 시작)
     int ordinal;
     String name = "";
 
@@ -10,10 +10,10 @@ abstract class MyEnum<T extends MyEnum<T>> implements Comparable<T> {
 
     MyEnum(String name) {
         this.name = name;
-        ordinal = id++;
+        ordinal = id++; // 객체가 생성될 때마다 id의 값을 증가시킨다.
     }
     public int compareTo(T t) {
-        return ordinal = t.ordinal();
+        return ordinal - t.ordinal();
     }
 }
 abstract class MyTransportation extends MyEnum {
