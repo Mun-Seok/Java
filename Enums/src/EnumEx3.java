@@ -20,6 +20,5 @@ public class EnumEx3 {
         System.out.println("train fare = " + Transportation.TRAIN.fare(100));
         System.out.println("ship fare = " + Transportation.SHIP.fare(100));
         System.out.println("airplane fare = " + Transportation.AIRPLANE.fare(100));
-
     }
 }
