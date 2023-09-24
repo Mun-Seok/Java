@@ -37,7 +37,7 @@ public class EnumEx1 {
         }
         Direction[] dArr = Direction.values();
         for (Direction d : dArr) { // for(Direction d : Direction.values())
-            System.out.printf("%s = %d&n", d.name(), d.ordinal());
+            System.out.printf("%s = %d%n", d.name(), d.ordinal());
         }
     }
 }
