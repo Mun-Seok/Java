@@ -13,8 +13,8 @@ public class LamdaEx2 {
         System.out.println(str);
 
 //        System.out.println(()->{}); // 에러 람다식은 Object 타입으로 형변환 안됨
-        System.out.println((MyFunction2)(()->{}));
+        System.out.println((MyFunction2) (() -> {}));
 //        System.out.println((MyFunction2)(()->{}).toString(); // 에러
-        System.out.println(((Object)(MyFunction2)(()->{})).toString());
+        System.out.println(((Object) (MyFunction2) (() -> {})).toString());
     }
 }
