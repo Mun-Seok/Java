@@ -1,3 +1,4 @@
+// 람다식 내에서 외부에 선언된 변수에 접근하는 방법을 보여주는 예제
 @FunctionalInterface
 interface MyFunction3 {
     void myMethod();
