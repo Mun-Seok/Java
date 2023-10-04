@@ -28,7 +28,7 @@ public class OptionalEx1 {
         System.out.println(optInt2.isPresent()); // false
 
         System.out.println(optInt1.getAsInt());
-        System.out.println(optInt2.getAsInt()); // NoSuchElementException
+//        System.out.println(optInt2.getAsInt()); // NoSuchElementException
         System.out.println("optInt1 = " + optInt1);
         System.out.println("optInt2 = " + optInt2);
         System.out.println("optInt1.equals(optInt2)?" + optInt1.equals(optInt2));
