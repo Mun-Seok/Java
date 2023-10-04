@@ -1,4 +1,4 @@
-// s
+// 스트림 최종 연산 여러 메서드들을 사용해보는 예제
 import java.util.*;
 import java.util.stream.*;
 public class StreamEx5 {
