@@ -5,7 +5,7 @@ public class DataOutputStreamEx3 {
         int[] score = {100, 90, 95, 85, 80};
 
         try {
-            FileOutputStream fos = new FileOutputStream("simple.dat");
+            FileOutputStream fos = new FileOutputStream("score.dat");
             DataOutputStream dos = new DataOutputStream(fos);
 
             for (int i = 0; i < score.length; i++) {
