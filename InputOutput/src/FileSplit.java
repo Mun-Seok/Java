@@ -1,3 +1,4 @@
+// 지정한 파일을 지정한 크기로 잘라서 여러 개의 파일로 만드는 예제
 import java.io.*;
 public class FileSplit {
     public static void main(String[] args) {
