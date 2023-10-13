@@ -1,0 +1,39 @@
+// 직렬화되지 않는 조상으로부터 상속받은 인스턴스변수에 대한 직렬화를 구현한 것
+import java.io.*;
+
+class SuperUserInfo {
+    String name;
+    String password;
+    SuperUserInfo() {
+        this("Unknown", "1111");
+    }
+}
+
+public class UserInfo2 extends SuperUserInfo implements java.io.Serializable {
+    int age;
+
+    public UserInfo2() {
+        this("unknown", "1111", 0);
+    }
+
+    public UserInfo2(String name, String password, int age) {
+        super(name, password);
+        this.age = age;
+    }
+
+    public String toString() {
+        return "(" + name + "," + password + "," + age + ")";
+    }
+
+    private void writeObject(ObjectOutputStream out) throws IOException {
+        out.writeUTF(name);
+        out.writeUTF(password);
+        out.defaultWriteObject();
+    }
+
+    private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
+        name = in.readUTF();
+        password = in.readUTF();
+        in.defaultReadObject();
+    }
+}
