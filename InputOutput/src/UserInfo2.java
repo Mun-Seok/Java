@@ -7,6 +7,10 @@ class SuperUserInfo {
     SuperUserInfo() {
         this("Unknown", "1111");
     }
+    SuperUserInfo(String name, String password) {
+        this.name = name;
+        this.password = password;
+    }
 }
 
 public class UserInfo2 extends SuperUserInfo implements java.io.Serializable {
