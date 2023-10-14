@@ -1,3 +1,4 @@
+// 소켓으로 데이터를 송신하고 수신하는 예제 2
 import java.net.*;
 import java.io.*;
 public class TcpIpClient5 {
