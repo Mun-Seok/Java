@@ -1,4 +1,4 @@
-
+// 서버로부터 서버시간을 전송받아 출력하는 UDP 소켓 클라이언트를 구현한 예제
 import java.net.*;
 import java.io.*;
 
