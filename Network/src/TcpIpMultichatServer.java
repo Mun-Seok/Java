@@ -1,4 +1,4 @@
-// 여러 클라이언트가 접속할 수 있는 서버를 구현한 예제 1
+// 여러 클라이언트가 접속할 수 있는 서버를 구현한 예제
 import java.net.*;
 import java.io.*;
 import java.util.*;
